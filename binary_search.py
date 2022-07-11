@@ -9,4 +9,7 @@ def binary_search(arr, low, high, x):
         if arr[mid] == x:
             return mid
 
-        # If element is smaller
+        # If element is smaller than mid, then it can only
+        # be present in the left subarry
+        elif arr[mid] > x:
+            return binary_search(arr, low, mid - 1, x)
