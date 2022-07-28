@@ -26,8 +26,8 @@ def binary_search(arr, x):
     return - 1
 
 # Test array
-arr = [2,3,4,10,40]
-x = 3
+arr = [3,2,4,10,40]
+x = 30
 
 # Function call
 result = binary_search(arr, x)
