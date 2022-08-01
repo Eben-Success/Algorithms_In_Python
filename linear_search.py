@@ -9,8 +9,9 @@ def linear_search(input_list: list, element: int):
 
     return -1
 
-myList = [2,3,4,5,5,76,4,3,4,6,3,4,3,44]
-print("Given list is:  ",myList)
+
+myList = [2, 3, 4, 5, 5, 76, 4, 3, 4, 6, 3, 4, 3, 44]
+print("Given list is:  ", myList)
 element = 44
 position = linear_search(myList, element)
-print(f"Element {element} is at postion: ",position)
+print(f"Element {element} is at postion: ", position)
