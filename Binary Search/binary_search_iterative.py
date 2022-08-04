@@ -25,8 +25,9 @@ def binary_search(arr, x):
     # If we reach here, then the element was not present
     return - 1
 
+
 # Test array
-arr = [3,2,4,10,40]
+arr = [3, 2, 4, 10, 40]
 x = 30
 
 # Function call
