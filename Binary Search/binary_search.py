@@ -23,8 +23,7 @@ def binary_search(arr, x):
     return -1
 
 
-
-arr = [2,4,5,56,6,4,5]
+arr = [2, 4, 5, 56, 6, 4, 5]
 x = 5
 
 ok = binary_search(arr, x)
