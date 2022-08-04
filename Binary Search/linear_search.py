@@ -1,14 +1,16 @@
-# Linear Search in Python
-
-def Linear_search(array, x, array_size):
-    array_size = len(array)
-
-    for i in array:
-        if array[i] == x:
+def LinearSearch(arr, x):
+    for i in range(0, len(arr)):
+        if arr[i] == x:
             return i
-        else:
-            return -1
+    return -1
 
 
-array = [2, 3, 4, 5, 6, 7, 4]
-x = 4
+arr = [2, 5, 6, 7, 8, 5, 3]
+x = 7
+
+result = LinearSearch(arr, x)
+
+if result == -1:
+    print("Element not found in array")
+else:
+    print("Element found at ", result)
