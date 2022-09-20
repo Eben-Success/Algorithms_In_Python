@@ -29,3 +29,6 @@ Printing all prices in a list:
 * Array insertion = O(n)
 
 * Array deletion = O(n)
+
+### STATIC AND DYNAMIC ARRAYS IN JAVA
+![img_6.png](img_6.png)
