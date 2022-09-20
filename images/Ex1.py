@@ -11,6 +11,12 @@ print(f"\n2. The total expense in first quarter is {total_expense}")
 var = 2000 in expense
 print("\n", var)
 
+expense.insert(4, 1980)
 
+expense[3] - 200
+print(expense)
 
+heros=['spider man','thor','hulk','iron man','captain america']
 
+length_heros = len(heros)
+print(f"\nThe length of heros is {length_heros}")
