@@ -3,3 +3,9 @@ Big O notation is used to measure how running time or space requirements for you
 
 ![img.png](img.png)
 
+### Constant Time
+![img_1.png](img_1.png)
+
+### Quadratic 
+![img_2.png](img_2.png)
+
