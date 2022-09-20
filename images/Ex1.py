@@ -16,7 +16,7 @@ expense.insert(4, 1980)
 expense[3] - 200
 print(expense)
 
-heros=['spider man','thor','hulk','iron man','captain america']
+heros = ['spider man', 'thor', 'hulk', 'iron man', 'captain america']
 
 length_heros = len(heros)
 print(f"\nThe length of heros is {length_heros}")
@@ -26,4 +26,18 @@ print("\n", heros)
 
 del heros[5]
 print(heros)
+
+max = int(input("Enter an odd number:\n"))
+
+odd_number = []
+
+def odd():
+    for i in range(1, max):
+        if i % 2 == 1:
+            odd_number.append(i)
+    print('Odd numbers is 1 ', odd_number)
+
+odd()
+
+
 
