@@ -85,3 +85,38 @@ Max number is something you need to take from a user using input() function
 
 [Solution](https://github.com/codebasics/data-structures-algorithms-python/blob/master/data_structures/2_Arrays/Solution/3_odd_even_numbers.py)
 
+## LINKEDLIST
+![img.png](img.png)
+### Insertion in Li nkedList
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+### TIME COMPLEXITIES OF LINKEDLIST
+* Insert Elemetn at beginning  = O(1)
+* Delete Element at begining = O(1)
+* Insert / Delete Elment at theend = O(n)
+
+PROS OF LINKEDLIST
+* You don't need to pre-allocated space.
+* Insertion is easier.
+* Linked List Traversal = O(n)
+* Accessing Element by Value  = O(n)
+
+## DOUBLE LINKED LIST
+![img_3.png](img_3.png)
+Has memory address to both previous and next
+element.
+
+![img_4.png](img_4.png)
+Indexing in List = list[item]
+That makes it O(1)
+But with the LinkedList, you need to go through all the 
+elements.
+
+With Array, in order to insert an element, 
+you need to copy the entire list and add the new element, that 
+makes it O(n).
+While with linkedList, you only need to reference the new element.
+
+
