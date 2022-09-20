@@ -21,4 +21,8 @@ The time complexity of looking up an item by index
 is O(1)
 Lookup by index = O(1)
 
+Printing all prices in a list:
+Array traversal = O(n)
+
+![img_5.png](img_5.png)
 
