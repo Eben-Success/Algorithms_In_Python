@@ -9,3 +9,5 @@ Big O notation is used to measure how running time or space requirements for you
 ### Quadratic 
 ![img_2.png](img_2.png)
 
+### Time and Space Complexities
+![img_3.png](img_3.png)
