@@ -12,17 +12,20 @@ Big O notation is used to measure how running time or space requirements for you
 ### Time and Space Complexities
 ![img_3.png](img_3.png)
 
-Binary Search => O(log n)
+* Binary Search => O(log n)
 
 4 Bytes is used to store numbers in the computer.
 ![img_4.png](img_4.png)
 
 The time complexity of looking up an item by index
 is O(1)
-Lookup by index = O(1)
+* Lookup by index = O(1)
 
 Printing all prices in a list:
-Array traversal = O(n)
+* Array traversal = O(n)
 
 ![img_5.png](img_5.png)
 
+* Array insertion = O(n)
+
+* Array deletion = O(n)
