@@ -20,3 +20,6 @@ heros=['spider man','thor','hulk','iron man','captain america']
 
 length_heros = len(heros)
 print(f"\nThe length of heros is {length_heros}")
+
+heros.insert(5, "black panther")
+print("\n", heros)
