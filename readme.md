@@ -17,6 +17,8 @@ Binary Search => O(log n)
 4 Bytes is used to store numbers in the computer.
 ![img_4.png](img_4.png)
 
-
+The time complexity of looking up an item by index
+is O(1)
+Lookup by index = O(1)
 
 
