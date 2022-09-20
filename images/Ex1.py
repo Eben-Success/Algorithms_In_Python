@@ -27,17 +27,16 @@ print("\n", heros)
 del heros[5]
 print(heros)
 
-max = int(input("Enter an odd number:\n"))
+max = int(input("Enter a max number: "))
 
 odd_number = []
 
-def odd():
-    for i in range(1, max):
-        if i % 2 == 1:
-            odd_number.append(i)
-    print('Odd numbers is 1 ', odd_number)
+for i in range(1, max):
+    if i % 2 == 1:
+        odd_number.append(i)
+print("Odd number is ", max)
 
-odd()
+
 
 
 
