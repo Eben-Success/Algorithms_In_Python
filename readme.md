@@ -12,3 +12,4 @@ Big O notation is used to measure how running time or space requirements for you
 ### Time and Space Complexities
 ![img_3.png](img_3.png)
 
+Binary Search => O(log n)
