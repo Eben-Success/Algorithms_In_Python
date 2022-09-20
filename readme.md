@@ -14,6 +14,7 @@ Big O notation is used to measure how running time or space requirements for you
 
 Binary Search => O(log n)
 
-
+4 Bytes is used to store numbers in the computer.
+![img_4.png](img_4.png)
 
 
