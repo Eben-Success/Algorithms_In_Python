@@ -23,3 +23,7 @@ print(f"\nThe length of heros is {length_heros}")
 
 heros.insert(5, "black panther")
 print("\n", heros)
+
+del heros[5]
+print(heros)
+
