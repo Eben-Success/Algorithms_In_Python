@@ -37,3 +37,5 @@ Printing all prices in a list:
 When dynamic arrays grows (10), they duplicate the memory capacity
 and adds additional capacity of 10*2 = 20.
 * Dynamic arrays work by Geometric progression.
+
+![img_8.png](img_8.png)
