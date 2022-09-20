@@ -32,3 +32,7 @@ Printing all prices in a list:
 
 ### STATIC AND DYNAMIC ARRAYS IN JAVA
 ![img_6.png](img_6.png)
+
+![img_7.png](img_7.png)
+When dynamic arrays grows (10), they duplicate the memory capacity
+and adds additional capacity of 10*2 = 20.
