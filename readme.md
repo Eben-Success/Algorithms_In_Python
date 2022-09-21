@@ -127,7 +127,9 @@ Complexity Analysis - Big O -> how runtime of an algorithm grows as input grous.
 As the input size increases, the time taken increases.
 The number of operations grow proportionally with n.
 
+![img_5.png](img_5.png)
 
+![img_6.png](img_6.png)
 
 
 
