@@ -119,6 +119,15 @@ you need to copy the entire list and add the new element, that
 makes it O(n).
 While with linkedList, you only need to reference the new element.
 
+* Time complexity is how the run time grows as the input size grows.
+
+Complexity Analysis - Big O -> how runtime of an algorithm grows as input grous.
+
+### Meaning of O(n)
+As the input size increases, the time taken increases.
+The number of operations grow proportionally with n.
+
+
 
 
 
