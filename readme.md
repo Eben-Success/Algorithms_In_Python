@@ -136,10 +136,13 @@ The number of operations grow proportionally with n.
 * You can improve time complexity by using more space.
 
 * Numbers, boolean, null, undefined all take constant space.
-
-## TECHNIDQUES TO SIMPLYING BIG O EXPRESSION
 ![img_7.png](img_7.png)
 
+## TECHNIDQUES TO SIMPLYING BIG O EXPRESSION
+
+![img_8.png](img_8.png)
+
+## LOGARITHM
 
 
 
