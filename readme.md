@@ -93,9 +93,9 @@ Max number is something you need to take from a user using input() function
 ![img_2.png](img_2.png)
 
 ### TIME COMPLEXITIES OF LINKEDLIST
-* Insert Elemetn at beginning  = O(1)
-* Delete Element at begining = O(1)
-* Insert / Delete Elment at theend = O(n)
+* Insert Element at beginning  = O(1)
+* Delete Element at beginning = O(1)
+* Insert / Delete Element at the end = O(n)
 
 PROS OF LINKEDLIST
 * You don't need to pre-allocated space.
@@ -118,5 +118,7 @@ With Array, in order to insert an element,
 you need to copy the entire list and add the new element, that 
 makes it O(n).
 While with linkedList, you only need to reference the new element.
+
+
 
 
