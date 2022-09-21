@@ -130,11 +130,15 @@ The number of operations grow proportionally with n.
 
 ![img_6.png](img_6.png)
 
+* Space Complexity is the auxiliary memory needed to run an algorithm.
 
 
+* You can improve time complexity by using more space.
 
+* Numbers, boolean, null, undefined all take constant space.
 
-
+## TECHNIDQUES TO SIMPLYING BIG O EXPRESSION
+![img_7.png](img_7.png)
 
 
 
