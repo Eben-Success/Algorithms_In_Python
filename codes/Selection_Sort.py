@@ -7,4 +7,23 @@ Insertion Sort Algorithm
 Move the greater elements one position up to make space for the swapped element.
 """
 
+
 # Code Implementation
+
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+
+        key = arr[i]
+
+        last = i - 1
+        while last >= 0 and key < arr[last]:
+            arr[last + 1] = arr[last]
+            last -= 1
+        arr[last + 1] = key
+
+
+# Driver code to test above
+arr = [12, 11, 14, 4, 5]
+insertion_sort(arr)
+for i in range(len(arr)):
+    print("% d" % arr[i])
