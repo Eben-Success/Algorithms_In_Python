@@ -12,3 +12,5 @@ def binary_search(list, target):
 
         else:
             last = mid - 1
+
+    return None
