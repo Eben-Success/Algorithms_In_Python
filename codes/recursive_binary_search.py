@@ -9,3 +9,7 @@ def recursive_binary_search(list, target):
 
         else:
             if list[mid] < target:
+                return recursive_binary_search(list[mid+1:], target)
+            else:
+                if list[mid] > target:
+                    return recursive_binary_search(list[:mid], target)
