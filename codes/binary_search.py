@@ -14,3 +14,6 @@ def binary_search(list, target):
             last = mid - 1
 
     return None
+
+# All the lines of code are constant time. However, as we keep redefining the mid,
+# the length of the array keeps growing. And this result in the Logarithmic runtime.
