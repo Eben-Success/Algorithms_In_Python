@@ -18,3 +18,11 @@ class LinkedList:
                 itr = itr.next
             print(llstr)
 
+    def get_length(self):
+        count = 0
+        itr = self.head
+        while itr:
+            count += 1
+            itr = itr.next
+
+        return count
