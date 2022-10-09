@@ -22,4 +22,23 @@ class LinkedList:
         return count
 
     def insert_at_index(self, index, data):
+        if index < 0 and index > self.get_length():
+            raise Exception("Invalid Exception")
+
+        if index == 0:
+            self.insert_at_begining(data)
+            return
+
+        count = 0
+        curr = self.head
+        while curr:
+            if count == index - 1:
+                node = Node(data, self.next)
+                curr.next = node
+                break
+            curr = curr.next
+            count += 1
+
+    def remove_at(self):
+
 
