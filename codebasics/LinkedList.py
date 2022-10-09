@@ -4,18 +4,15 @@ class Node:
         self.next = next
 
 class LinkedList:
-    def __init__(self):
+    def __init(self):
         self.head = None
-
 
     def get_length(self):
         count = 0
         curr = self.head
-
         while curr:
             count += 1
             curr = curr.next
         return count
 
-    def insert_at_begining(self):
-        node = Node(data, self.head)
+    def insert_at_begining(self, data):
