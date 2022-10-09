@@ -17,11 +17,11 @@ class LinkedList:
             print("Linked list is empty")
             return
 
-        itr = self.head
+        curr = self.head
         llstr = ' '
-        while itr:
-            llstr += str(itr.data) + '-->'
-            itr = itr.next
+        while curr:
+            llstr += str(curr.data) + '-->'
+            curr = curr.next
         print(llstr)
 
     def insert_at_end(self, data):
