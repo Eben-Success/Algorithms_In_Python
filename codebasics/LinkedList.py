@@ -48,6 +48,22 @@ class LinkedList:
             curr = curr.next
             count += 1
 
+    def remove_at_index(self, index):
+        if index < 0 and index > self.get_length():
+            raise Exception("Invalid Index")
+
+        if index == 0:
+            self.head = self.head.next
+            return
+
+        count = 0
+        curr = self.head
+        while curr:
+            if count == index - 1:
+                curr.next = curr.next.next
+                break
+            curr = curr.next
+            count += 1
 
     def insert_values(self, data_list):
         self.head = None
@@ -70,4 +86,5 @@ if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_values(['banana', 'apple', 'pawpaw', 'mangoes'])
     ll.insert_at_index(2, 'figs')
+    ll.remove_at_index(3)
     ll.print()
