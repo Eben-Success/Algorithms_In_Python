@@ -17,3 +17,5 @@ class LinkedList:
             curr = curr.next
         return count
 
+    def insert_at_begining(self):
+        node = Node(data, self.head)
