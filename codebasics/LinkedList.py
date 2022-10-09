@@ -65,3 +65,9 @@ class LinkedList:
             curr = curr.next
         print(llstr)
 
+
+if __name__ == '__main__':
+    ll = LinkedList()
+    ll.insert_values(['banana', 'apple', 'pawpaw', 'mangoes'])
+    ll.insert_at_index(2, 'figs')
+    ll.print()
