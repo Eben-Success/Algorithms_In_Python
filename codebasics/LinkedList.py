@@ -49,4 +49,19 @@ class LinkedList:
             count += 1
 
 
+    def insert_values(self, data_list):
+        self.head = None
+        for data in data_list:
+            self.insert_at_end(data)
+
+    def print(self):
+        if self.head is None:
+            print("Linked list is empty")
+            return
+        itr = self.head
+        llstr = ''
+        while itr:
+            llstr += str(itr.data) + ' --> ' if itr.next else str(itr.data)
+            itr = itr.next
+        print(llstr)
 
