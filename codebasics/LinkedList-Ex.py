@@ -39,6 +39,20 @@ class LinkedList:
             curr = curr.next
             count += 1
 
-    def remove_at(self):
+    def remove_at_index(self, index):
+        if index < 0 and index > self.get_length():
+            raise Exception("Invalid Exception")
 
+        if index == 0:
+            self.head = self.head.next
+
+        count = 0
+        curr = self.head
+        while curr:
+            if count == index - 1:
+                curr.next = curr.next.next
+                break
+
+            curr = curr.next
+            count += 1
 
