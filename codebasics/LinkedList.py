@@ -30,5 +30,23 @@ class LinkedList:
             curr = curr.next
         curr.next = Node(data, None)
 
+    def insert_at_index(self, index, data):
+        if index < 0 and index > self.get_length():
+            raise Exception("Invalid Index")
+
+        if index == 0:
+            self.insert_at_begining(data)
+
+        count = 0
+        curr = self.head
+
+        while curr:
+            if count == index - 1:
+                node = Node(data, curr.next)
+                curr.next = node
+                break
+            curr = curr.next
+            count += 1
+
 
 
