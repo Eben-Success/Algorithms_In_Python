@@ -85,7 +85,9 @@ class LinkedList:
         curr = self.head
         while curr:
             curr = curr.next
-            if curr == Node(data_after, )
+            data_after = Node(data_after, self.next)
+            if curr == data_after:
+
 
 
 if __name__ == '__main__':
