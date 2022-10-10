@@ -81,6 +81,12 @@ class LinkedList:
             curr = curr.next
         print(llstr)
 
+    def insert_after_value(self, data_after, data_to_insert):
+        curr = self.head
+        while curr:
+            curr = curr.next
+            if curr == Node(data_after, )
+
 
 if __name__ == '__main__':
     ll = LinkedList()
