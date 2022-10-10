@@ -21,3 +21,14 @@ class HashTable:
         for idx, element in enumerate(self.arr[h]):
             if len(element) == 2 and element[0] == key:
                 self.arr[h][idx] = (key, val)
+                found = True
+
+            if not found:
+                self.arr[h].append((key, val))
+
+    def __delitem(self, key):
+        arr_index = self.get_hash(key)
+        for index, kv in enumerate(self.arr[arr_index]):
+            if kv[0] == key:
+                print("del ", index)
+                del self.arr[arr_index][index]
