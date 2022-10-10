@@ -1,3 +1,4 @@
+import time
 from collections import deque
 
 class Queue:
@@ -5,7 +6,7 @@ class Queue:
         self.buffer = deque()
 
     def enqueue(self, val):
-        self.buffer.append(val)
+        self.buffer.appendleft(val)
 
     def dequeue(self):
         return self.buffer.pop()
@@ -16,4 +17,4 @@ class Queue:
     def seize(self):
         return len(self.buffer)
 
-    def place_order
+
