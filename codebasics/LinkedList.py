@@ -94,6 +94,23 @@ class LinkedList:
         while curr:
             if curr.data == data_after:
                 curr.next = Node(data_to_insert, curr.next)
+                break
+            curr = curr.next
+
+    def remove_by_value(self, data):
+        if self.head is None:
+            return
+
+        if self.head.data == data:
+            self.head = self.head.next
+            return
+
+        curr = self.head
+        while curr.next:
+            if curr.next.data == data:
+                curr.next = curr.next.next
+                break
+            curr = curr.next
 
 
 
