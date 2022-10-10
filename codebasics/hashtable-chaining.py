@@ -9,3 +9,9 @@ class HashTable:
             hash += ord(char)
         return hash % self.Max
 
+    def __getitem__(self, key):
+        arr_index = self.get_hash(key)
+        for kv in self.arr[arr_index]:
+            if kv[0] == key:
+                return kv[1]
+
