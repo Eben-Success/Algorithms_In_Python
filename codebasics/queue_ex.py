@@ -3,3 +3,17 @@ from collections import deque
 class Queue:
     def __init__(self):
         self.buffer = deque()
+
+    def enqueue(self, val):
+        self.buffer.append(val)
+
+    def dequeue(self):
+        return self.buffer.pop()
+
+    def is_empty(self):
+        return len(self.buffer) == 0
+
+    def seize(self):
+        return len(self.buffer)
+
+    def place_order
