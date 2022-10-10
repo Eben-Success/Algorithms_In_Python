@@ -15,3 +15,9 @@ class HashTable:
             if kv[0] == key:
                 return kv[1]
 
+    def __setitem(self, key, val):
+        h = self.get_hash(key)
+        found = False
+        for idx, element in enumerate(self.arr[h]):
+            if len(element) == 2 and element[0] == key:
+                self.arr[h][idx] = (key, val)
