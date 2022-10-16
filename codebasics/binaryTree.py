@@ -48,5 +48,10 @@ class BinarySearchTreeNode:
 
         return elements
 
-def build_tree()
+def build_tree(elements):
+    print("Building tree with these elements: ", elements)
+    root = BinarySearchTreeNode(elements[0])
+
+    for i in range(1, len(elements))
+
 
