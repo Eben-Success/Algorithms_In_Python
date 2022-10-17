@@ -91,6 +91,10 @@ class BinarySearchTreeNode:
         else:
             if self.left is None and self.right is None:
                 return None
+            if self.left is None:
+                return self.right
+            if self.right is None:
+                return self.right
 
 
 def build_tree(elements):
