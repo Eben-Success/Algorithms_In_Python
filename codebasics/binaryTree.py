@@ -97,6 +97,10 @@ class BinarySearchTreeNode:
                 return self.right
 
 
+    def delete(self, val):
+
+
+
 
 
 def build_tree(elements):
