@@ -96,7 +96,6 @@ class BinarySearchTreeNode:
             if self.right is None:
                 return self.right
 
-
     def delete(self, val):
         if val < self.data:
             if self.left:
@@ -107,8 +106,6 @@ class BinarySearchTreeNode:
         else:
             if self.left is None and self.right is None:
                 return None
-
-
 
 
 def build_tree(elements):
