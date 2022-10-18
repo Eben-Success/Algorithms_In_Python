@@ -106,6 +106,16 @@ class BinarySearchTreeNode:
         else:
             if self.left is None and self.right is None:
                 return None
+            elif self.left is None:
+                return self.right
+            elif self.right is None:
+                return self.left
+
+            max_val = self.left.find_max()
+            self.data = max_val
+            self.right = self.right.delete(max_val)
+
+        return self
 
 
 def build_tree(elements):
@@ -118,10 +128,14 @@ def build_tree(elements):
 
 
 if __name__ == '__main__':
-    numbers_tree = build_tree([17, 2, 35, 3, 56, 5, 33, 5, 26, 7, 43])
-    print("In order traversal gives this sorted list: ", numbers_tree.in_order_traversal())
-    print("Max ", numbers_tree.find_max())
-    print("Min ", numbers_tree.find_min())
-    print("Sum ", numbers_tree.calculate_sum())
-    print("Pre order traversal: ", numbers_tree.pre_order_traversal())
-    print("Post order traversal: ", numbers_tree.post_order_traversal())
+    numbers_tree = build_tree([17, 20, 35, 3, 56, 5, 33, 5, 26, 7, 43])
+    # print("In order traversal gives this sorted list: ", numbers_tree.in_order_traversal())
+    # print("Max ", numbers_tree.find_max())
+    # print("Min ", numbers_tree.find_min())
+    # print("Sum ", numbers_tree.calculate_sum())
+    # print("Pre order traversal: ", numbers_tree.pre_order_traversal())
+    # print("Post order traversal: ", numbers_tree.post_order_traversal())
+
+    print(numbers_tree)
+    numbers_tree.delete(20)
+    print("After deleting 20 ", numbers_tree.in_order_traversal())
