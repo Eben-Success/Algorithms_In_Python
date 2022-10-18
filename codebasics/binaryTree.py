@@ -135,7 +135,7 @@ if __name__ == '__main__':
     # print("Sum ", numbers_tree.calculate_sum())
     # print("Pre order traversal: ", numbers_tree.pre_order_traversal())
     # print("Post order traversal: ", numbers_tree.post_order_traversal())
-
-    print(numbers_tree)
-    numbers_tree.delete(20)
-    print("After deleting 20 ", numbers_tree.in_order_traversal())
+    number = 43
+    print(numbers_tree.in_order_traversal())
+    numbers_tree.delete(number)
+    print(f"After deleting {number} ", numbers_tree.in_order_traversal())
