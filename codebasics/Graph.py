@@ -46,15 +46,15 @@ class Graph:
 
         return shortest_path
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     routes = [
-        ("Mumbai","Pune"),
+        ("Mumbai", "Pune"),
         ("Mumbai", "Surat"),
         ("Surat", "Bangaluru"),
-        ("Pune","Hyderabad"),
-        ("Pune","Mysuru"),
-        ("Hyderabad","Bangaluru"),
+        ("Pune", "Hyderabad"),
+        ("Pune", "Mysuru"),
+        ("Hyderabad", "Bangaluru"),
         ("Hyderabad", "Chennai"),
         ("Mysuru", "Bangaluru"),
         ("Chennai", "Bangaluru")
@@ -74,11 +74,11 @@ if __name__ == '__main__':
     start = "Mumbai"
     end = "New York"
 
-    print(f"All paths between: {start} and {end}: ",route_graph.get_paths(start,end))
-    print(f"Shortest path between {start} and {end}: ", route_graph.get_shortest_path(start,end))
+    print(f"All paths between: {start} and {end}: ", route_graph.get_paths(start, end))
+    print(f"Shortest path between {start} and {end}: ", route_graph.get_shortest_path(start, end))
 
     start = "Dubai"
     end = "New York"
 
-    print(f"All paths between: {start} and {end}: ",route_graph.get_paths(start,end))
-    print(f"Shortest path between {start} and {end}: ", route_graph.get_shortest_path(start,end))
+    print(f"All paths between: {start} and {end}: ", route_graph.get_paths(start, end))
+    print(f"Shortest path between {start} and {end}: ", route_graph.get_shortest_path(start, end))
