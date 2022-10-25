@@ -11,16 +11,12 @@ def binary_search(numbers_list, number_to_find):
     mid_index = 0
 
     while low <= high:
-        mid_index = (low + high) // 2
-        mid = numbers_list[mid_index]
+        mid_index  =(low + high) // 2
+        mid_number = numbers_list[mid_index]
 
-        if mid == number_to_find:
-            return mid
-        elif mid < number_to_find:
-            low = mid + 1
-        else:
-            high = mid - 1
-    return -1
+        if mid_number == number_to_find:
+            return mid_index
+
 
 
 
