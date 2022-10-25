@@ -26,7 +26,7 @@ def binary_search(list, target):
 
 if __name__  == "__main__":
     numbers_list = [12,15,17,19,21,45,67]
-    number_to_find = 45
+    number_to_find = 12
 
     index = linear_search(numbers_list, number_to_find)
     print(f"Number found at index {index} using linear search")
