@@ -27,7 +27,7 @@ def binary_search(list, target):
             high = mid_index - 1
     return -1
 
-
+@time_it
 def binary_search_recursive(list, target, low, high):
     if high > low:
         return -1
