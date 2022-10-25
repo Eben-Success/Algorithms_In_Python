@@ -6,7 +6,14 @@ def linear_search(numbers_list, number_to_find):
 
 
 def binary_search(numbers_list, number_to_find):
-    pass
+    low = 0
+    high = len(numbers_list) - 1
+    mid_index = 0
+
+    while low <= high:
+        mid_index = (low + high) // 2
+        mid = mid[mid_index]
+
 
 
 if __name__  == "__main__":
