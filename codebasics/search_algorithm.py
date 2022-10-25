@@ -58,3 +58,5 @@ if __name__ == "__main__":
     print(f"Number found at index {index} using linear search")
     index = binary_search(numbers, number_to_find)
     print(f"Number found at index {index} using binary search")
+
+    index = binary_search_recursive(numbers, number_to_find, 0, len(numbers))
