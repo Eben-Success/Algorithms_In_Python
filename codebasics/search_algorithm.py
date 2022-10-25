@@ -14,6 +14,14 @@ def binary_search(numbers_list, number_to_find):
         mid_index = (low + high) // 2
         mid = mid[mid_index]
 
+        if mid == number_to_find:
+            return mid
+        elif mid < number_to_find:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
 
 
 if __name__  == "__main__":
