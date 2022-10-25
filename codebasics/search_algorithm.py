@@ -44,7 +44,7 @@ def binary_search_recursive(list, target, low, high):
     else:
         high = mid_index - 1
 
-    binary_search_recursive(list, target, low, high)
+    return binary_search_recursive(list, target, low, high)
 
 
 
