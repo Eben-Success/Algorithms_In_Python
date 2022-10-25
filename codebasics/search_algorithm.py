@@ -3,7 +3,7 @@ def linear_search(numbers_list, number_to_find):
         if element == number_to_find:
             return index
         return -1
-    pass
+
 
 def binary_search(numbers_list, number_to_find):
     pass
