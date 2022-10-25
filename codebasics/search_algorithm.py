@@ -12,7 +12,7 @@ def binary_search(numbers_list, number_to_find):
 
     while low <= high:
         mid_index = (low + high) // 2
-        mid = mid[mid_index]
+        mid = numbers_list[mid_index]
 
         if mid == number_to_find:
             return mid
@@ -30,3 +30,5 @@ if __name__  == "__main__":
 
     index = linear_search(numbers_list, number_to_find)
     print(f"Number found at index {index} using linear search")
+    index = binary_search(numbers_list, number_to_find)
+    print(f"Number found at index {index} using binary search")
