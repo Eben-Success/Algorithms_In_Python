@@ -51,11 +51,11 @@ def binary_search_recursive(list, target, low, high):
 
 
 if __name__ == "__main__":
-    # numbers_list = [12, 15, 17, 19, 21, 45, 67]
-    # number_to_find = 12
+    numbers = [12, 15, 15, 15,17, 19, 21, 45, 67]
+    number_to_find = 15
 
-    numbers = [i for i in range(1000001)]
-    number_to_find = 1000000
+    # numbers = [i for i in range(1000001)]
+    # number_to_find = 1000000
     index = linear_search(numbers, number_to_find)
     print(f"Number found at index {index} using linear search")
     index = binary_search(numbers, number_to_find)
