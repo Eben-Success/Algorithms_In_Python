@@ -5,18 +5,22 @@ def linear_search(numbers_list, number_to_find):
     return -1
 
 
-def binary_search(numbers_list, number_to_find):
-    low = 0
-    high = len(numbers_list) - 1
-    mid_index = 0
+def binary_search(list, target):
+    low, mid_index = 0,0
+    high = len(list) - 1
 
     while low <= high:
-        mid_index  =(low + high) // 2
-        mid_number = numbers_list[mid_index]
+        mid_index = (low + high ) // 2
+        mid_number = list[mid_index]
 
-        if mid_number == number_to_find:
+        if mid_number == target:
             return mid_index
 
+        if mid_number < target:
+            low = mid_index + 1
+        else:
+            high = mid_index - 1
+    return -1
 
 
 
