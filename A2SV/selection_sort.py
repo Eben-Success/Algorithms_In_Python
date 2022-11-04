@@ -7,4 +7,5 @@ def selectionSort(array, size):
     for step in range(size):
         min_idx = step
 
-        for i in range(step+1, size)
+        for i in range(step+1, size):
+
