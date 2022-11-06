@@ -1,18 +1,31 @@
 def mergeSort(array):
     if len(array) > 1:
 
-    # m is the point where the array is divided into to subarrays
+        m = len(array) // 2
 
-    m = len(array) / 2
-    left_array = array[:m]
-    right_array = array[m:]
+        L = array[:m]
+        R = array[m:]
 
-    # Sort the two halves
-    mergeSort(left_array)
-    mergeSort(right_array)
+        mergeSort(L)
+        mergeSort(R)
 
-    i = j = k = 0
+        i = j = k = 0
 
-    # Until we reach the end of either left_array or right_array, pick the larger among
-    # elements left_array and right_array and place them in the correct position at A[p...r]
+        while i < len(L) and j < len(R):
+            if L[i] < R[j]:
+                array[k] = L[i]
+                i+=1
+            else:
+                array[k] = R[j]
+                j+=1
+            k+=1
 
+        while i < len(L):
+            array[k] = L[i]
+            i+=1
+            k+=1
+
+        while j < len(R):
+            array[k] = R[j]
+            j+=1
+            k+=1
