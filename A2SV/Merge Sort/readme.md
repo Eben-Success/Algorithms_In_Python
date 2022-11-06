@@ -11,7 +11,7 @@ MergeSort Algorithm
 |Time                         |Cases                     
 |----------------|-----------------------------|
 |Best Case| `O(n)`            |
-|Worst Case         |`O(n^2)`                    
+|Worst Case         |`O(nlogn)`                    
 |Average Case         |`O(n^2)`|
 
 
