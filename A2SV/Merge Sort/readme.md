@@ -7,14 +7,14 @@ MergeSort Algorithm
 ### Time Complexity
 
 
-|Time                         |Cases                     
-|----------------|-----------------------------|
-|Best Case| `O(n)`            |
-|Worst Case         |`O(nlogn)`                    
-|Average Case         |`O(n^2)`|
+|Time                         | Cases      
+|----------------|------------|
+|Best Case| `O(nlogn)` |
+|Worst Case         | `O(nlogn)` 
+|Average Case         | `O(nlogn)` |
 
 
-Space Complexity: O(1) <br>
+Space Complexity: O(n) <br>
 Stablity: Yes
 
 ## Time Complexities
